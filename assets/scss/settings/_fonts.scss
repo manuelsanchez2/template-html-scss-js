@@ -1,0 +1,37 @@
+$font-weight-normal: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: $font-weight-normal;
+  src: url("../fonts/Karla-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: $font-weight-medium;
+  src: url("../fonts/Karla-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-style: italic;
+  font-weight: $font-weight-medium;
+  src: url("../fonts/Karla-MediumItalic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  src: url("../fonts/Karla-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+$font-primary: "Karla";
